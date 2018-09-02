@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Toll plaza</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="font/css/fontello.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="index1.html"><img src="img/zxx.jpg" alt=""></a>
+      <ul class="nav nav-collapse pull-right">
+        <li><a href="index1.html" class="active"><i class="icon-user"></i> home </a></li>
+        <li><a href="retrieve.html"><i class="icon-trophy"></i> retrieve </a></li>
+        <li><a href="bill.html"><i class="icon-doc-text"></i> get bill </a></li>
+      </ul>
+      <div class="nav-collapse collapse"></div>
+    </div>
+  </div>
+</div>
+<div class="container home">
+  <div class="span3"> <img src="img/zzz.png" alt=""> </div>
+  <div class="span5">
+    <h1>WELCOME TO TOLLPLAZA DATABASE</h1>
+    <h3>Different bills based on the vehicle types:</h3>
+       <h2><p>car/jeep/van----30rs</p></h2>
+       <h2><p>bus/truck-------60rs</p></h2>
+       <h2><p>atleast 3 axle--80rs</p></h2>
+       <h2><p>5 to 6 axle-----100rs</p></h2>
+       <h2><p>7 and more axle--120rs</p></h2>
+    <a href="bill.html" class="get bill"><i class="icon-paper-plane"></i> GET BILL </a> </div>
+</div>
+
+<div class="footer" href="bootstrap-responsive.css" rel="stylesheet" type="text/css">
+  <div class="container">
+    <p class="pull-left"><a href="index.html">LOGOUT / REGISTER NEW</a></p>
+    <p class="pull-right"><a href="#myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i>CONTACT US</a></p>
+  </div>
+</div>
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel"><i class="icon-mail"></i>CONTACT US</h3>
+  </div>
+  <div class="modal-body">
+      <h2>NITHIN THOMAS</h2>
+      <h3>9483241020</h3>
+      <h3><a href = "mailto:nithin.thomas@gmail?subject = Feedback&body = Message">
+Send Feedback
+</a></h3>
+      
+    <!--<form action="#">
+      <input type="text" placeholder="vehicle num">
+      <input type="text" placeholder="driver licence num(OPTIONAL)">
+      <br>
+      <button type="submit" padding="12px 16px" class="btn btn-large"><i class="icon-paper-plane"></i> SEARCH</button>
+    </form>-->
+  </div>
+</div>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$('#myModal').modal('hidden')
+</script>
+</body>
+</html>
